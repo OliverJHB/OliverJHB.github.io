@@ -8,6 +8,8 @@ document.getElementById("gifContainer").style.display = "block";
 //Funcion que se activa cuando le damos al boton Si
 document.getElementById("siBtn").addEventListener("click", function () {
   // Ocultar el gif triste y mostrar el gif feliz
+  let noButtonClickCount = 0;
+  let noButtonState = 0;
   document.getElementById("sadGifContainer").style.display = "none";
   document.getElementById("sadGifContainer1").style.display = "none";
   document.getElementById("sadGifContainer2").style.display = "none";
